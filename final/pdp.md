@@ -1,15 +1,15 @@
 # Personal Development Plan
 
-- A Personal Development Plan (PDP) is a detailed plan on how you will reach the learning outcomes you have set.
-- It serves as a planning tool for your professional development.
-- It will be reviewed and updated regularly.
-- It helps you track your learning and performance throughout a given period.
 
-### Initial PDP
-- Rephrase the learning goals (see LG1 and LG2 in module description) in your own words.
-- Then create a plan outlining how y0u will achieve these goals and what artifacts you will use to demonstrate your understanding and progress
+This document holds my personal development plan for documentation of my progress towards achieveing Learning Outcomes 1 and 2 (LO1 & LO2) of Project 4 module. LO1 and LO2 are separated into two categories for better readability and consistency.
 
-**LO1:** the student plans and executes a project in their track at level 2 of the HBO-i framework regarding autonomy and complexity, in an agile way. </br>
+- [Learning Outcome 1](#lo1)
+- [Learning Outcome 2](#lo2)
+
+----
+
+### LO1:
+ *The student plans and executes a project in their track at level 2 of the HBO-i framework regarding autonomy and complexity, in an agile way.* </br>
 
 In my own words: I want to develop amphious robot that resembeles duck, while focusing on two main activities: realise and advise. Advising on hardware-intefacing would provide a technical base for the design phase based on requirements and realization on software layer would ensure properly working software system with proper integrity, security and system performance.
 
@@ -18,19 +18,41 @@ In my own words: I want to develop amphious robot that resembeles duck, while fo
 
 **Plan:**
 | Week | Task                  | Relevant sources |
-|:----:|-----------------------|:----------------:|
-|  1   | Project Introduction, familiarization with provided module information  | Project 4 module canvas, Module Description, etc |
-|  2   | Ideas brainstorm, initial requirements formulating |
-|  3   | Initial project idea finalization |
-|  4   | 
-----
+|:----:|-----------------------|:-----------------|
+|  1   | Project Introduction, familiarization with provided module information  | Project 4 module Canvas files, [Module Description](/documents/md_prj4_2025.pdf), etc |
+|  2   | Brainstorming ideas, defining initial project requirements | [Ideas list](/images/brainstorm.jpeg)
+|  3   | Refining project concept, finalizing initial specifications | [Initial project idea](https://github.com/FontysVenlo/prj4e-repository-group_e02/blob/main/doc/initial-project-idea.md)
+|  4   | Drafting Personal Development Plan (PDP) v1 | |
+|  5   | Theoretical initial research on potential hardware, identifying key technical constraints| |
+|  6   | Advising based on analysed requirements, first selected modules, parallel research of software architecture | Hardware selection document |
+|  7   | Project charter finalization ||  
+--------
 
-**LO2:** demonstrates professional skills at level 2 in the focus areas: future-oriented, organization, investigative ability, personal leadership, and targeted interaction
+#### Success Indicators
+
+- A structured project plan with agile methodologies.
+- A clear technical documentation for hardware and software implementation.
+- Documented progress with explained choices.
+- Successfully implemented and tested both software and hardware.
+- Constructive feedback from team members and coaches regarding both technical and professional skill development.
+<br>
+<br>
+<br>
+-----
+
+### LO2:
+*The student demonstrates professional skills at level 2 in the focus areas: future-oriented organization, investigative ability, personal leadership, and targeted interaction.*
+
+In my words: For learning outcome 2, I am aiming to enhance my soft skills and work towards being more perspective aware and informed on relevant options, also setting concrete and well-defined goals, and communicating more effectively by considering more detailed aspects for each important interaction.
 ![HBO-I skills](/images/hbo-skills-future-investigative.png)
 ![HBO-I skills](/images/hbo-skills-leadership-targeted.png)
 
-
-
+| Week | Focus Area | Tasks | Relevant sources |
+|:----:|------------|-------|:-----------------|
+|  4   | Future-Oriented Organization | Define personal goals and ways for professional development | PDP v1, [Personal Goals](/documents/personal-goals.md) |
+|  5   | Investigative ability | Research project-relvant practices in hardware |   |
+|  6   | Targeted Interaction | Seek feedback, reflect on the past weeks | [Documented Feedback](/documents/feedback.md), [Reflection v1](/documents/reflection.md)  |
+|  7   | Personal Leadership |   | |
 
 
 ![Deadlines](/images/deadlines.jpg)
