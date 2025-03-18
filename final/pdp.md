@@ -11,7 +11,7 @@ This document holds my personal development plan for documentation of my progres
 ### LO1:
  *The student plans and executes a project in their track at level 2 of the HBO-i framework regarding autonomy and complexity, in an agile way.* </br>
 
-In my own words: I want to develop amphious robot that resembeles duck, while focusing on two main activities: realise and advise. Advising on hardware-intefacing would provide a technical base for the design phase based on requirements and realization on software layer would ensure properly working software system with proper integrity, security and system performance.
+In my own words: I want to develop amphious robot that resembeles duck, while focusing on two main activities: realise and advise. Advising on hardware-interfacing would provide a technical base for the design phase focused on requirements; realization on software layer would ensure properly working software system with proper integrity, security and system performance.
 
 ![HBO-I software](/images/hbo-software.png)
 ![HBO-I hardware](/images/hbo-hardware.png)
@@ -23,7 +23,7 @@ In my own words: I want to develop amphious robot that resembeles duck, while fo
 |  2   | Brainstorming ideas, defining initial project requirements | [Ideas list](/images/brainstorm.jpeg)
 |  3   | Refining project concept, finalizing initial specifications | [Initial project idea](https://github.com/FontysVenlo/prj4e-repository-group_e02/blob/main/doc/initial-project-idea.md)
 |  4   | Drafting Personal Development Plan (PDP) v1 | |
-|  5   | Theoretical initial research on potential hardware, identifying key technical constraints| |
+|  5   | Theoretical initial research on potential hardware, identifying key technical constraints| [Components List](https://github.com/FontysVenlo/prj4e-repository-group_e02/blob/main/doc/components.md) |
 |  6   | Advising based on analysed requirements, first selected modules, parallel research of software architecture | Hardware selection document |
 |  7   | Project charter finalization ||  
 --------
