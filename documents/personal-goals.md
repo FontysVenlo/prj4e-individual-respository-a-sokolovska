@@ -13,6 +13,7 @@ Examples being "CS50: Introduction to Computer Science" by Harvard and "CS107: C
 
 Example: "Fire in the Valley: The Making of The Personal Computer" by  Paul Freiberger, Michael Swaine
 
+- Start learning C++ and finish small project in it for better CV filling.
 - Ensure additional studying time on taken modules
 - Create a proper CV and seek feedback on it from expereinced individuals
 - Secure proper internship position
