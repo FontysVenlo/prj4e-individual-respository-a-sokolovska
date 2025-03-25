@@ -12,3 +12,9 @@ After long discussions  of project idea within the team, got an approval for ini
 Sum of the feedback from coaches: <br>
 Go for only one enviroment for the robot, as two may be overcomplicated for the current scope. Out of movement options, go for the initial idea with Mississippi wheels. Also leave most of engineering for later, right now the focus should be conceptual idea. <br>
 Overall, the team is on schedule and has progress under control.
+
+### Week 6
+Tutoring hour:
+It's an option to take prebuild products such as toy boats or duck decoys to evade building the frame for robot from scratch. 
+With the current idea, we should also consider additional motion sensor for detecting the direction of movement. The wheels won't be working perfectly in sync, so the direction may diviate from straight and needs to be corrected. Integrating compas may be a simple solution with this. Also we should keep in mind balancing and weight control. <br> 
+Overall progress approved.

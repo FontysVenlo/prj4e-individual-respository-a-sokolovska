@@ -1,4 +1,5 @@
 ## Components
+Table of content:
 
 - [Motors](#motors)
 - [Motor Drivers](#motor-drivers)
