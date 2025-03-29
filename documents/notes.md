@@ -27,9 +27,8 @@ To figure out torque requirements, we need to know wheels specifications (paddle
 | Current Draw | 5A - 10A |
 
 
-**Option**: 37GB555 DC Geared Motor - €16.69 Aliexpress <br>
-24V at 100rpm (75 rpm load, torque 1.18 Nm, current 7.5A) <br>
-https://nl.aliexpress.com/item/32849218686.html?gatewayAdapt=glo2nld#nav-specification
+**Option**: [RS PRO Brushed Geared DC Geared Motor - €39.40 RS](https://nl.rs-online.com/web/p/dc-motors/2389670) <br>
+19.8 W, 12 V dc, 59 Ncm, 84 rpm, 6mm Shaft Diameter <br> (a bit weaker, current draw)
 
 <br>
 
@@ -38,19 +37,16 @@ https://nl.aliexpress.com/item/32849218686.html?gatewayAdapt=glo2nld#nav-specifi
 <br>
 
 ### Motor Drivers:
-Motor driver would need to handle 24V from motor, as well as estimate of 10A, have PWM speed control and dualdirectional control. (!! Possibly logic level shifter needed in case of 5V microcontroller !!)
+Motor driver would need to handle 12V from motor, as well as estimate of 10A, have PWM speed control and dualdirectional control. (!! Possibly logic level shifter needed in case of 5V microcontroller !!)
 
 | Feature | Suggestion |
 |------|------------|
-| Max voltage | 24V |
+| Max voltage | 12V |
 | Max current | 10A and higher |
-| Control features | PWM, bidirectional |
+| Control features | PWM, half or dual bridge |
 
-**Option:** HiLetgo BTS7960 43A High Power Motor Driver - €10.99 Amazon <br>
-https://www.amazon.com/HiLetgo-BTS7960-Driver-Arduino-Current/dp/B00WSN98DC
-**Alternative from suppliers:** 
-Cytron 10A 5-30V Dual Channel DC Motor Control - €27.08 <br>
-https://eu.robotshop.com/nl/products/cytron-10a-5-30v-tweekanaals-dc-motor-besturing?qd=fad18108b86b536d92b0a8e04611130f
+**Option:** [VNH5019ATR-E - €8.79 DigiKey](https://www.digikey.nl/en/products/detail/stmicroelectronics/VNH5019ATR-E/3087980)
+<br> 5.5V ~ 24V, 30A, Brushed DC, Parallel, PWM, Half Bridge
 
 <br>
 
@@ -66,9 +62,7 @@ With microcontroller options, need for significat number of GPIOs must be consid
 | PWM | 8+ channels, 10-20 kHz |
 | Sensors support | I2C, SPI |
 
-**Option:** ESP32-WROOM-32 - €4.29 Aliexpress <br>
-https://www.aliexpress.com/item/1005006473619046.html <br>
-**Alternative from suppliers:** ESP32-WROOM-32E - €13,95 <br>
+**Option:** ESP32-WROOM-32E - €13,95 <br>
 https://www.reichelt.de/de/de/shop/produkt/entwicklungsboard_esp32-wroom-32e-341303
 
 
@@ -91,3 +85,12 @@ https://www.reichelt.de/de/de/shop/produkt/entwicklungsboard_esp32-wroom-32e-341
 <br>
  
 ### Sensors:
+
+Motion controller, distance, speaker, 
+
+<br>
+
+---
+
+### Additionals:
+Return bluetooth button
