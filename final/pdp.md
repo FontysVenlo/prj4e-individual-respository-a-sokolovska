@@ -25,8 +25,10 @@ In my own words: I want to develop amphious robot that resembeles duck, while fo
 |  4   | Drafting Personal Development Plan (PDP) v1 | |
 |  5   | Theoretical initial research on potential hardware, identifying key technical constraints| [Personal Notes on Components](/documents/notes.md) |
 |  6   | Advising based on analysed requirements, first selected modules, parallel research of software architecture | [Hardware selection document](https://github.com/FontysVenlo/prj4e-repository-group_e02/blob/main/doc/GreatComponentList.md) |
-|  7   | Project charter finalization ||  
-|  8   | First project week, hardware building ||
+|  7   | Project charter finalization |[Project Charter](https://github.com/FontysVenlo/prj4e-repository-group_e02/blob/main/doc/Project4-charter-02.md)|  
+|  PW1 | Basic hardware building, outer frame, basic hardware implementation ||
+|  PW2 | Second project week, finalizing first rough prototype with movement, but not nessessorily on water yet | |
+|  8   | Focus on more in-depth software implementation | |
 --------
 
 #### Success Indicators
@@ -51,9 +53,9 @@ In my words: For learning outcome 2, I am aiming to enhance my soft skills and w
 | Week | Focus Area | Tasks | Relevant sources |
 |:----:|------------|-------|:-----------------|
 |  4   | Future-Oriented Organization | Define personal goals and ways for professional development | PDP v1, [Personal Goals](/documents/personal-goals.md) |
-|  5   | Investigative ability | Research project-relvant practices in hardware |   |
+|  5   | Investigative ability | Research project-relvant practices in hardware | [Personal notes on hardware](/documents/notes.md)  |
 |  6   | Targeted Interaction | Seek feedback, reflect on the past weeks | [Documented Feedback](/documents/feedback.md), [Reflection v1](/documents/reflection.md)  |
-|  7   | Personal Leadership |   | |
+|  7   | Personal Leadership | Organize work distribution and ensure the completion of project charter in-time  | [Project Charter](https://github.com/FontysVenlo/prj4e-repository-group_e02/blob/main/doc/Project4-charter-02.md)|
 
 
 ![Deadlines](/images/deadlines.jpg)
