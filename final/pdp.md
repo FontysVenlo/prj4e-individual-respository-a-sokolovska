@@ -11,7 +11,7 @@ This document holds my personal development plan for documentation of my progres
 ### LO1:
  *The student plans and executes a project in their track at level 2 of the HBO-i framework regarding autonomy and complexity, in an agile way.* </br>
 
-In my own words: I want to develop amphious robot that resembeles duck, while focusing on two main activities: realise and advise. Advising on hardware-interfacing would provide a technical base for the design phase focused on requirements; realization on software layer would ensure properly working software system with proper integrity, security and system performance.
+In my own words: I want to develop amphious robot that resembeles duck, while focusing on two main activities: realise and advise. Advising on hardware-interfacing would provide a technical base for the design phase focused on requirements; realization on software layer would ensure properly working software system with proper integrity, security and system performance. The learning curve will involve hardware research (motor types, microcontrollers, power supply options, etc), hardware assembly, C/C++ skills enhancing (real-time system respose to outside factors, smooth and precise components control, etc)
 
 ![HBO-I software](/images/hbo-software.png)
 ![HBO-I hardware](/images/hbo-hardware.png)
@@ -26,7 +26,7 @@ In my own words: I want to develop amphious robot that resembeles duck, while fo
 |  5   | Theoretical initial research on potential hardware, identifying key technical constraints| [Personal Notes on Components](/documents/notes.md) |
 |  6   | Advising based on analysed requirements, first selected modules, parallel research of software architecture | [Hardware selection document](https://github.com/FontysVenlo/prj4e-repository-group_e02/blob/main/doc/GreatComponentList.md) |
 |  7   | Project charter finalization |[Project Charter](https://github.com/FontysVenlo/prj4e-repository-group_e02/blob/main/doc/Project4-charter-02.md)|  
-|  PW1 | Basic hardware building, outer frame, basic hardware implementation ||
+|  PW1 | Basic hardware building, outer frame, basic software implementation ||
 |  PW2 | Second project week, finalizing first rough prototype with movement, but not nessessorily on water yet | |
 |  8   | Focus on more in-depth software implementation | |
 --------

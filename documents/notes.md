@@ -16,7 +16,7 @@ Table of content:
 ### Motors:
 As of now, main options for the motors are brushed DC motors with H-bridge or BLCD with gearboxes, as we need continious rotation at high torque, relative ease of control and relatively cheap price. <br>
 *Primarly*: As to more detailed specifications, I would consider options with voltage starting from **12V**, as 5V introduce quite significant power limitations (less voltage requires more current, hence specialized high-current motor drivers). <br>
-*Week 7 update:* After a lot of consideration and research, we have been advised to switch to 5V motors. This decisions makes the possibility of combinating different modules easier, but introduces the risk of motor being too weak to operate in the water enviroment. At the same time, 12V motors required rather complicated way of powering, so we decided to take on the risk of 5V mototrs. <br> 
+*Week 7 update:* After a lot of consideration and research, we have been advised to switch to 5V motors. This decision makes the possibility of combinating different modules easier, but introduces the risk of motor being too weak to operate in the water enviroment. At the same time, 12V motors required rather complicated way of powering, so we decided to take on the risk of 5V mototrs. <br> 
 <br> Considering targeted water enviroment, RPM range should start at slow speeds to push water efficiently, but at the same higher boundary should be quite big to ensure options of manouvering. This brings us to approximate of **50-150 RPM**. In case of high-speed motors we would also need to consider gear reduction ratios. <br>
 To figure out torque requirements, we need to know wheels specifications (paddle bades, radius), but safe minimum point would be around **1 Nm**.
 
@@ -49,7 +49,7 @@ For case of 6V motor, the driver isn't neseccary, but would provide precise cont
 | Control features | PWM, half or dual bridge |
 
 **Option 12V:** [VNH5019ATR-E - €8.79 DigiKey](https://www.digikey.nl/en/products/detail/stmicroelectronics/VNH5019ATR-E/3087980)
-<br> 5.5V ~ 24V, 30A, Brushed DC, Parallel, PWM, Half Bridge
+<br> 5.5V ~ 24V, 30A, Brushed DC, Parallel, PWM, Half Bridge <br>
 **Option 6V:** [TB6612FNG DUAL MOTOR DRIVER - €4.57 DigiKey](https://www.digikey.nl/en/products/detail/pololu/713/10450399?s=N4IgTCBcDaICoCEBsSCMYBiA5A4iAugL5A) <br>
 Brushed 4.5 ~ 13.5VDC Supply 1A 4.5 ~ 13.5V Load
 
