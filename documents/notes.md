@@ -16,8 +16,8 @@ Table of content:
 ### Motors:
 As of now, main options for the motors are brushed DC motors with H-bridge or BLCD with gearboxes, as we need continious rotation at high torque, relative ease of control and relatively cheap price. <br>
 *Primarly*: As to more detailed specifications, I would consider options with voltage starting from **12V**, as 5V introduce quite significant power limitations (less voltage requires more current, hence specialized high-current motor drivers). <br>
-*Week 7 update:* After a lot of consideration and research, we have been advised to switch to 5V motors. This decision makes the possibility of combinating different modules easier, but introduces the risk of motor being too weak to operate in the water enviroment. At the same time, 12V motors required rather complicated way of powering, so we decided to take on the risk of 5V mototrs. <br> 
-<br> Considering targeted water enviroment, RPM range should start at slow speeds to push water efficiently, but at the same higher boundary should be quite big to ensure options of manouvering. This brings us to approximate of **50-150 RPM**. In case of high-speed motors we would also need to consider gear reduction ratios. <br>
+*Week 7 update:* After a lot of consideration and research, we have been advised to switch to 5V motors. This decision makes the possibility of combining different modules easier, but introduces the risk of motor being too weak to operate in the water enviroment. At the same time, 12V motors required rather complicated way of powering, so we decided to take on the risk of 5V mototrs. <br> 
+<br> Considering targeted water enviroment, RPM range should start at slow speeds to push water efficiently, but at the same higher boundary should be quite big to ensure variety of manouvering. This brings us to approximate of **50-150 RPM**. In case of high-speed motors we would also need to consider gear reduction ratios. <br>
 To figure out torque requirements, we need to know wheels specifications (paddle bades, radius), but safe minimum point would be around **1 Nm**.
 
 | Feature | Suggestion |
@@ -40,7 +40,7 @@ Servomotor RC 120 RPM 6V
 
 ### Motor Drivers:
 Motor driver would need to handle 12V (6V) from motor, as well as estimate of 1A, have PWM speed control and dualdirectional control. 
-For case of 6V motor, the driver isn't neseccary, but would provide precise control over RPM and additional isolation from power spikes and other possible power problems.
+For case of 6V motor, the driver isn't neseccary, but would provide precise control over RPM and additional isolation from power spikes and other possible power problems. 
 
 | Feature | Suggestion |
 |------|------------|
@@ -61,7 +61,7 @@ Brushed 4.5 ~ 13.5VDC Supply 1A 4.5 ~ 13.5V Load
 <br>
 
 ### Microcontrollers:
-With microcontroller options, need for significat number of GPIOs must be considered, as well as PWM support with reliable frequency, relatively low power consumption and ease of expansion.
+With microcontroller options, need for significat number of GPIOs must be considered, as well as PWM support with reliable frequency, relatively low power consumption and ease of expansion. Considering experience with LilyGO TTGO v1.6.1 it would be a sufficient option as well,
 | Feature | Suggestion |
 | ------- | ---------- |
 | Voltage | 3.3V, 5V |
@@ -91,6 +91,9 @@ Minimum: 5, 2Ah (2000mAh) Li-ion or LiPo
  
 ### Sensors:
 
+For sensors the intended functionality needs to be heavily considered. While the level of the project doesn't expect the highest precision or control, the sensor modulees still should be sufficient for the intended purposes. Besides that, power limitations must be taken into consideration, bringing the possible voltage options to **3.3 - 5V**. 
+
+Separately for each sensor:  <br>
 [Sen-15559 HC-SR04 Ultrasonic Distance Sensor](https://www.distrelec.nl/en/hc-sr04-ultrasonic-distance-sensor-sparkfun-electronics-sen-15569/p/30160395?trackQuery=Distance%20sensor&pos=5&origPos=3&origPageSize=50&track=true&sid=1bde0xNWYx&itemList=search) - 5v, analogue
 <br>
 

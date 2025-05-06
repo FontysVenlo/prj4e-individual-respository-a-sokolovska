@@ -18,3 +18,6 @@ Tutoring hour:
 It's an option to take prebuild products such as toy boats or duck decoys to evade building the frame for robot from scratch. 
 With the current idea, we should also consider additional motion sensor for detecting the direction of movement. The wheels won't be working perfectly in sync, so the direction may diviate from straight and needs to be corrected. Integrating compas may be a simple solution with this. Also we should keep in mind balancing and weight control. <br> 
 Overall progress approved.
+
+### Projects weeks 1 and 2
+Despite being delayed by components delivery, we made maximun progress with what we already had on our hands. The outside stakeholders who were shown a small demo of our progress ramained rather intrested.  
