@@ -20,4 +20,22 @@ With the current idea, we should also consider additional motion sensor for dete
 Overall progress approved.
 
 ### Projects weeks 1 and 2
-Despite being delayed by components delivery, we made maximun progress with what we already had on our hands. The outside stakeholders who were shown a small demo of our progress ramained rather intrested.  
+Despite being delayed by components delivery, we made maximun progress with what we already had on our hands. The outside stakeholders who were shown a small demo of our progress ramained rather intrested.
+
+### Week 7
+
+
+### Week 8
+
+
+### Week 9
+
+
+### Week 10
+Second power source, wheels connection without neils
+
+### Week 11
+
+### Week 12
+
+### Week 13

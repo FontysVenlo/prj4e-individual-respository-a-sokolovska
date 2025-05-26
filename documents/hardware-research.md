@@ -16,7 +16,7 @@ Table of content:
 ### Motors:
 As of now, main options for the motors are brushed DC motors with H-bridge or BLCD with gearboxes, as we need continious rotation at high torque, relative ease of control and relatively cheap price. <br>
 *Primarly*: As to more detailed specifications, I would consider options with voltage starting from **12V**, as 5V introduce quite significant power limitations (less voltage requires more current, hence specialized high-current motor drivers). <br>
-*Week 7 update:* After a lot of consideration and research, we have been advised to switch to 5V motors. This decision makes the possibility of combining different modules easier, but introduces the risk of motor being too weak to operate in the water enviroment. At the same time, 12V motors required rather complicated way of powering, so we decided to take on the risk of 5V mototrs. <br> 
+*Week 7 update:* After a lot of consideration and research, we have been advised to switch to 6V motors. This decision makes the possibility of combining different modules easier, but introduces the risk of motor being too weak to operate in the water enviroment. At the same time, 12V motors required rather complicated way of powering, so we decided to take on the risk of 5V mototrs. <br> 
 <br> Considering targeted water enviroment, RPM range should start at slow speeds to push water efficiently, but at the same higher boundary should be quite big to ensure variety of manouvering. This brings us to approximate of **50-150 RPM**. In case of high-speed motors we would also need to consider gear reduction ratios. <br>
 To figure out torque requirements, we need to know wheels specifications (paddle bades, radius), but safe minimum point would be around **1 Nm**.
 
@@ -78,10 +78,9 @@ https://www.reichelt.de/de/de/shop/produkt/entwicklungsboard_esp32-wroom-32e-341
 
 <br>
 
-### Power Supply:
+### Power:
 
-Minimum: 5, 2Ah (2000mAh) Li-ion or LiPo
-
+Minimum: 2500mAh Li-ion or LiPo with corresponding to the moters voltage.
 
 <br>
 

@@ -30,7 +30,7 @@ In my own words: I want to develop amphious robot that resembeles duck, while fo
 |  PW2 | Hardware work, first rough prototype with approximate final weight, mostly focusing on wheels structure | [Weight calculations](/documents/weight-calculations.md), video documentation |
 |  8   | Focus on more in-depth software implementation and combining modules together | Electrical circuit layout V1 |
 |  9   | Propulsion system further research including typical motor connectors | [Notes on Propulsion](/documents/propulsion-system.md) |
-|  10  |  Reworking electical circuit with consideration of extra power source and ON/OFF button |  [Electrical Circuit Layout V2.0](/images/)  |
+|  10  |  Reworking electical circuit with consideration of extra power source and ON/OFF button |  [Electrical Circuit Layout V2.0](/images/circuit_imageV2.svg)  |
 |  11  | Integrate hardware and software subsystems and test functional connections (movement, sensors, sound) |
 |  PW3 / 12  | Motor tuning for movement precision, components interaction, assembling and testing full propulsion system |    | 
 |  PW4 / 13  | Implementing safety modes, initial tests of fully assembled model  |    |
