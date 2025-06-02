@@ -25,17 +25,13 @@ Despite being delayed by components delivery, we made maximun progress with what
 ### Week 7
 
 
-### Week 8
-
-
-### Week 9
-
-
-### Week 10
-Second power source, wheels connection without neils
+### Week 8-10
+Progress slowed due to resuming lectures. Key focus was on figuring out the mechanical connection between motors and the paddle wheels. Initial electrical system was completed (all components connected), but interaction is not yet tested. Shouldnot forget about software. Discussed the need for a separate power source for control logic and an ON/OFF switch for safe operation. Also got firm advice on not using nails for the wheel connection.
 
 ### Week 11
 
 ### Week 12
 
 ### Week 13
+ After discussions with mr Tange, decided to stick to a single power source both for motors and controller woth sensors. This introduces some minor questions about connection for voltage check to keep track of battery status, but should be doable. Aldo great advice on positioning of the motor inside the frame: horizontal motor mount would provide better weight distribution and easier mounting.
+  PDP needs documented progress for each goal, but the story form is not necessary.

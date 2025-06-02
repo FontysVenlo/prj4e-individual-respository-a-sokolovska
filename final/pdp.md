@@ -24,8 +24,8 @@ In my own words: I want to develop amphious robot that resembeles duck, while fo
 |  3   | Refining project concept, finalizing initial specifications | [Initial project idea](https://github.com/FontysVenlo/prj4e-repository-group_e02/blob/main/doc/initial-project-idea.md)
 |  4   | Drafting Personal Development Plan (PDP) v1 | |
 |  5   | Theoretical initial research on potential hardware, identifying key technical constraints| [Personal Notes on Components](/documents/hardware-research.md) |
-|  6   | Advising based on analysed requirements, first selected modules, parallel research of software architecture | [Hardware selection document](https://github.com/FontysVenlo/prj4e-repository-group_e02/blob/main/doc/GreatComponentList.md) |
-|  7   | Project charter finalization |[Project Charter](https://github.com/FontysVenlo/prj4e-repository-group_e02/blob/main/doc/Project4-charter-02.md)|  
+|  6   | Advising based on analysed requirements, first selected modules, parallel research of software architecture | [Hardware selection document](https://github.com/FontysVenlo/prj4e-repository-group_e02/blob/main/documentation/GreatComponentList.md) |
+|  7   | Project charter finalization |[Project Charter](https://github.com/FontysVenlo/prj4e-repository-group_e02/blob/main/documentation/Project4-charter-02.md)|  
 |  PW1 | Basic hardware building, outer frame, basic software implementation | Photo documentation |
 |  PW2 | Hardware work, first rough prototype with approximate final weight, mostly focusing on wheels structure | [Weight calculations](/documents/weight-calculations.md), video documentation |
 |  8   | Focus on more in-depth software implementation and combining modules together | Electrical circuit layout V1 |
