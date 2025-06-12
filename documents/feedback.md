@@ -35,3 +35,6 @@ Progress slowed due to resuming lectures. Key focus was on figuring out the mech
 ### Week 13
  After discussions with mr Tange, decided to stick to a single power source both for motors and controller woth sensors. This introduces some minor questions about connection for voltage check to keep track of battery status, but should be doable. Aldo great advice on positioning of the motor inside the frame: horizontal motor mount would provide better weight distribution and easier mounting.
   PDP needs documented progress for each goal, but the story form is not necessary.
+
+### Week 14
+Mr van Gennip said go for two power sources, LiPo batteries have generalized graph for dropping capacity, it's a prototype so no need to worry about customer maintainance, 5V 
