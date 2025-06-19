@@ -15,4 +15,3 @@ For the initial testing of the outer frame floating ability, the approximate wei
 
 For safety measures and possibly additional components, add approximately 1/4 of the calculated number:
 245 + 62 = **307g.**
-

@@ -2,7 +2,7 @@
 
 ## Context
 
-The propulsion system of the amphibious robotic duck is based on two paddle wheels "Mississippi" style, which must be  connected to motors with the following specification:
+The propulsion system of the duck is based on two paddle wheels "Mississippi" style, which must be connected to motors with the following specification:
 
 - Spline: 25-tooth, 5.96 mm outer diameter
 - The motor comes with a servo horn, but it is not suitable for directly mounting the wheel.
@@ -25,6 +25,7 @@ The primary goal of this research was to identify onnection mechanisms between t
 |------------------|---------------------|
 | [3D model on Thingiverse](https://www.thingiverse.com/thing:2358211) | Spline pattern does not match, and the adapter is too large to be mounted securely on a 5.96 mm OD shaft. |
 | [Forum post on motor-to-wheel connection](https://www.electro-tech-online.com/threads/connecting-motor-to-wheel.153148/) | Suggests using set screws and couplers, but does not consider specific spline geometry. Also risk of slipping under wet conditions. |
+| [Forum discussion on overall motor connection](https://www.quora.com/What-are-the-ways-you-can-hook-up-wheels-to-a-motor-when-making-a-robot) | Too general and mostly directed towards land enviroment, while we have to consider waterproofness |
 
 ---
 

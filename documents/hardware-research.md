@@ -38,7 +38,7 @@ Servomotor RC 120 RPM 6V
 
 <br>
 
-### Motor Drivers:
+### Motor Drivers: 
 Motor driver would need to handle 12V (6V) from motor, as well as estimate of 1A, have PWM speed control and dualdirectional control. 
 For case of 6V motor, the driver isn't neseccary, but would provide precise control over RPM and additional isolation from power spikes and other possible power problems. 
 
@@ -61,15 +61,16 @@ Brushed 4.5 ~ 13.5VDC Supply 1A 4.5 ~ 13.5V Load
 <br>
 
 ### Microcontrollers:
-With microcontroller options, need for significat number of GPIOs must be considered, as well as PWM support with reliable frequency, relatively low power consumption and ease of expansion. Considering experience with LilyGO TTGO v1.6.1 it would be a sufficient option as well,
+With microcontroller options, need for significat number of GPIOs must be considered, as well as PWM support with reliable frequency, relatively low power consumption and ease of expansion. Considering experience with LilyGO TTGO v1.6.1 it would be a sufficient option as well.
 | Feature | Suggestion |
 | ------- | ---------- |
 | Voltage | 3.3V, 5V |
 | PWM | 8+ channels, 10-20 kHz |
 | Sensors support | I2C, SPI |
 
-**Option:** ESP32-WROOM-32E - €13,95 <br>
-https://www.reichelt.de/de/de/shop/produkt/entwicklungsboard_esp32-wroom-32e-341303
+**Additioal Option:** [ESP32-WROOM-32E](https://www.reichelt.de/de/de/shop/produkt/entwicklungsboard_esp32-wroom-32e-341303) - €13,95 <br>
+**Used:** [LilyGo TTGO v1.6.1](https://www.tinytronics.nl/en/development-boards/microcontroller-boards/with-lora/lilygo-ttgo-t3-lora32-868mhz-v1.6.1-esp32) - €22.00
+
 
 
 <br>
@@ -80,7 +81,9 @@ https://www.reichelt.de/de/de/shop/produkt/entwicklungsboard_esp32-wroom-32e-341
 
 ### Power:
 
-Minimum: 2500mAh Li-ion or LiPo with corresponding to the moters voltage.
+Minimum: 2500mAh Li-ion or LiPo with corresponding to the motors voltage. Meaning high energy density, relatively small size and built-in protection (short circuit, overcurrent). Either whole 7.4V as one cell, or 2 3.7V connected in 2S to power low-voltage servos while keeping the system lightweight (at most 50 gr one battery) and compact. <br>
+**Option:** [PKCELL Li-Po LP785060](https://www.tinytronics.nl/en/power/batteries/li-po/pkcell-li-po-battery-3.7v-2500mah-jst-ph-lp785060) - €8.50 <br>
+3.7V, 2500mAh, 48g, built-in protection
 
 <br>
 
@@ -88,17 +91,12 @@ Minimum: 2500mAh Li-ion or LiPo with corresponding to the moters voltage.
 
 <br>
  
-### Sensors:
+### Sensor and extras:
 
-For sensors the intended functionality needs to be heavily considered. While the level of the project doesn't expect the highest precision or control, the sensor modulees still should be sufficient for the intended purposes. Besides that, power limitations must be taken into consideration, bringing the possible voltage options to **3.3 - 5V**. 
+For sensors the intended functionality needs to be heavily considered. While the level of the project doesn't expect the highest precision or control, the sensor modules still should be sufficient for the intended purposes. Besides that, power limitations must be taken into consideration, bringing the possible voltage options to **3.3 - 5V**. 
 
-Separately for each sensor:  <br>
-[Sen-15559 HC-SR04 Ultrasonic Distance Sensor](https://www.distrelec.nl/en/hc-sr04-ultrasonic-distance-sensor-sparkfun-electronics-sen-15569/p/30160395?trackQuery=Distance%20sensor&pos=5&origPos=3&origPageSize=50&track=true&sid=1bde0xNWYx&itemList=search) - 5v, analogue
+**Distance Sensor:** [Sen-15559 HC-SR04 Ultrasonic Distance Sensor](https://www.distrelec.nl/en/hc-sr04-ultrasonic-distance-sensor-sparkfun-electronics-sen-15569/p/30160395?trackQuery=Distance%20sensor&pos=5&origPos=3&origPageSize=50&track=true&sid=1bde0xNWYx&itemList=search) - 5v, analogue <br>
+**Speaker Module:** [Open-Smart MP3 Module with Speaker](https://www.tinytronics.nl/en/audio/audio-sources/open-smart-mp3-module-with-speaker) - 3.3V ~ 5V, UART, USB <br>
+**Compass:** [Pmod CMPS2](https://www.digikey.com/en/products/detail/digilent-inc/410-355/7644627?s=N4IgTCBcDaIMYFsAOBnCBdAvkA) - 3.3V, magnetic 3 axis
+
 <br>
-
-[Open-Smart MP3 Module with Speaker](https://www.tinytronics.nl/en/audio/audio-sources/open-smart-mp3-module-with-speaker) - 3.3V ~ 5V, UART, USB
-
----
-
-### Additionals:
-Return bluetooth button

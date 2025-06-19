@@ -40,16 +40,19 @@ In my own words: I want to develop amphious robot that resembles a duck, while f
 |  4   | Drafting Personal Development Plan (PDP) v1 | |
 |  5   | Theoretical initial research on potential hardware, identifying key technical constraints| [Personal Notes on Components](/documents/hardware-research.md) |
 |  6   | Advising based on analysed requirements, first selected modules, parallel research of software architecture | [Hardware selection document](https://github.com/FontysVenlo/prj4e-repository-group_e02/blob/main/documentation/GreatComponentList.md) |
-|  7   | Project charter finalization |[Project Charter](https://github.com/FontysVenlo/prj4e-repository-group_e02/blob/main/documentation/Project4-charter-02.md)|  
-|  PW1 | Basic hardware building, outer frame, basic software implementation | Photo documentation |
-|  PW2 | Hardware work, first rough prototype with approximate final weight, mostly focusing on wheels structure | [Weight calculations](/documents/weight-calculations.md), video documentation |
+|  7   | Project charter finalization, similar products research |[Project Charter](https://github.com/FontysVenlo/prj4e-repository-group_e02/blob/main/documentation/Project4-charter-02.md)
+|  PW1 | Basic hardware building, outer frame, basic software implementation,  RC car autopsy | [RC car review](/documents/rc-car.md)  |
+|  PW2 | Hardware work, first rough prototype with approximate final weight, mostly focusing on wheels structure | [Weight calculations](/documents/weight-calculations.md), [Weight test - video](/video/weight_test.mp4) |
 |  8   | Focus on more in-depth software implementation and combining modules together | [Electrical circuit layout V1](https://github.com/FontysVenlo/prj4e-repository-group_e02/blob/dev/documentation/images/circuit_image.svg) |
 |  9   | Propulsion system further research and implementation including typical motor connectors | [Notes on Propulsion](/documents/propulsion-system.md) |
 |  10  |  Reworking electical circuit with consideration of extra power source and ON/OFF button |  [Electrical Circuit Layout V2 and V3](https://github.com/FontysVenlo/prj4e-repository-group_e02/blob/dev/documentation/images/circuit_image_v3.svg)  |
-|  11  | Integrate hardware and software subsystems and test functional connections separately (movement, sensors, sound) | [Video, photo documentation]() |
-|  PW3 / 12  | Motor tuning for movement precision, components interaction testing, assembling and testing full propulsion system |    | 
-|  PW4 / 13  | Final preparations of the outer frame and electical circuit | [Electrical Circuit V4](https://github.com/FontysVenlo/prj4e-repository-group_e02/blob/dev/documentation/images/circuit_image_v4.svg) |
-|  PW5 / 14  | Full assemble and testing in different enviroments with proper documentation and safety measures |    |
+|  11  | Integrate hardware and software subsystems and test functional connections separately (movement, sensors, sound) | [Motor test - photo](/images/photos/separate_motor_testing.jpeg), [Propulsion assembly check - video](/video/propulsion_first_assembly.mp4) |
+|  PW3 / 12  | Motor tuning for movement precision, components interaction testing, assembling and testing full propulsion system | [Better circuit documentation](https://github.com/FontysVenlo/prj4e-repository-group_e02/blob/main/documentation/circuit.md), [Component Interaction test - video](/video/component_interaction_test.mp4) |
+|  PW4 / 13  | Final preparations of the outer frame and electical circuit | [Electrical Circuit V4](https://github.com/FontysVenlo/prj4e-repository-group_e02/blob/dev/documentation/images/circuit_image_v4.svg), [Outer Frame Preparation - photo](/images/photos/outer_frame_prep.jpeg) |
+|  PW5 / 14  | Full assemble and testing in different enviroments with proper documentation and safety measures | [First Water test - video](/video/first_water_test.mp4), [Obstacle Avoidence test - video](/video/water_test_obstacle.mp4), [Final Electrical Circuit V5](https://github.com/FontysVenlo/prj4e-repository-group_e02/blob/main/documentation/images/circuit_image_v5.svg) |
+
+
+**Examples of LEARNING MATERIAL can be found [here](/documents/learning-material.md)**
 
 --------
 #### Log:
@@ -64,7 +67,7 @@ The main work phase began in **Weeks 5 and 6**, when I launched initial [researc
 
 Meanwhile, we were also working on the [project charter](https://github.com/FontysVenlo/prj4e-repository-group_e02/blob/dev/documentation/Project4-charter-02.md), which we finalized in **Week 7** after long discussions about the intended scope and prioritization of functionality.
 
-In **PW1**, the first components were delivered. We began [preparing the frame]() and getting used to working with embedded components—both hardware and software. Since key parts like the motors and batteries arrived late, **PW2** was spent [testing]() the prototype under [estimated full weight](/documents/weight-calculations.md) and designing [water wheels](https://github.com/FontysVenlo/prj4e-repository-group_e02/blob/dev/documentation/3dPrint/Waterwheel_v2.1.stl) for 3D printing—despite no one on the team having prior 3D modeling experience.
+In **PW1**, the first components were delivered. We began preparing the frame and getting used to working with embedded components—both hardware and software. I also [dissasembled similiar product](/documents/rc-car.md) to get more ideas.  Since key parts like the motors and batteries arrived late, **PW2** was spent [testing](/video/weight_test.mp4) the prototype under [estimated full weight](/documents/weight-calculations.md) and designing [water wheels](https://github.com/FontysVenlo/prj4e-repository-group_e02/blob/dev/documentation/3dPrint/Waterwheel_v2.1.stl) for 3D printing—despite no one on the team having prior 3D modeling experience.
 
 In **Week 8**, our focus shifted to software integration and the [first circuit draft](https://github.com/FontysVenlo/prj4e-repository-group_e02/blob/dev/documentation/images/circuit_image.svg). Debugging the compass module was especially challenging for me due to interference from other components and a lack of clear feedback, but the process turned into a valuable learning experience.
 
@@ -74,7 +77,7 @@ From **Week 10**, after long discussions with stakeholders, we agreed to use two
 
 **Week 11** was dedicated to subsystem testing after the circuit rework and early preparations for the [low battery detection](/documents/battery-level.md) feature, which introduced AD conversion and hence, [version 4](https://github.com/FontysVenlo/prj4e-repository-group_e02/blob/dev/documentation/images/circuit_image_v4.svg) of the circuit.
 
-Finally, during **PW3–PW5**, we integrated everything, tuned performance, and implemented the low battery behavior. Late advice about adding fuses led to a last-minute [redesign of the circuit]() and final assembly — but resulted in safer and more complete system.
+Finally, during **PW3–PW5**, we integrated everything, tuned performance, and implemented the low battery behavior. Late advice about adding fuses led to a last-minute [redesign of the circuit](https://github.com/FontysVenlo/prj4e-repository-group_e02/blob/main/documentation/images/circuit_image_v5.svg) and final assembly — but resulted in safer and more complete system. At last, we [successfully tested](/video/water_test_obstacle.mp4) the system in the pond with all components proving to be working as inteded. 
 
 
 --------
@@ -127,13 +130,13 @@ Through this approach, I want to become more intentional and effective in  plann
 |  5   | Investigative ability | Research project-relevant practices in hardware | [Personal notes on hardware](/documents/hardware-research.md)  |
 |  6   | Targeted Interaction | Seek feedback, reflect on the past weeks | [Documented Feedback](/documents/feedback.md), [Reflection Weeks 1-6](/documents/reflection.md)  |
 |  7   | Personal Leadership | Organize work distribution and ensure the completion of project charter in-time  | [Project Charter](https://github.com/FontysVenlo/prj4e-repository-group_e02/blob/main/doc/Project4-charter-02.md)|
-|  8  | Future-Oriented Organization | Review mid-project progress and adjust further plan accordingly | [Group]() and [Individual]() Project Boards, [Retrospective meeting log](https://github.com/FontysVenlo/prj4e-repository-group_e02/blob/dev/documentation/retrospective-results.md) |
+|  8  | Future-Oriented Organization | Review mid-project progress and adjust further plan accordingly | [Group](https://github.com/orgs/FontysVenlo/projects/618/views/1) and [Individual](https://github.com/orgs/FontysVenlo/projects/598) Project Boards, [Retrospective meeting log](https://github.com/FontysVenlo/prj4e-repository-group_e02/blob/dev/documentation/retrospective-results.md) |
 |  9  | Investigative Ability | Explore different options for connection of propulsion system, motor connectors in particular | [Propulsion System Notes](/documents/propulsion-system.md) |
 |  10 | Targeted Interaction | Discuss acquired information with the team and stakeholders, consider alternatives | [Feedback](/documents/feedback.md) |
-|  11 | Future-oriented Organization | Reorganize and update individual documentation, brainstorm tasks for the following project weeks | [Reflection Weeks 6-11](/documents/reflection.md), [Kanban board](), |
+|  11 | Future-oriented Organization | Reorganize and update individual documentation, brainstorm tasks for the following project weeks | [Reflection Weeks 6-11](/documents/reflection.md), [Kanban board](https://github.com/orgs/FontysVenlo/projects/618/views/1), |
 |  12 | Personal Leadership | Lead the hardware circuit building, distribute tasks | [Circuit versions](https://github.com/FontysVenlo/prj4e-repository-group_e02/tree/dev/documentation/images) |
-|  13 | Investigative Ability | Ensure compliance of final model with past documentation |
-| 14 | Future-oriented Organization | Evaluate and reflect on project's process | [Reflection Weeks 11-14](/documents/reflection.md)
+|  13 | Investigative Ability | Ensure proper documentation for the circuit | [Circuit instructions and version history](https://github.com/FontysVenlo/prj4e-repository-group_e02/blob/dev/documentation/circuit.md)
+| 14 | Future-oriented Organization | Evaluate and reflect on project's process | [Reflection Weeks 12-14](/documents/reflection.md)
 
 
 -----
